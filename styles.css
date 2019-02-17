@@ -1,5 +1,4 @@
 canvas {
-	cursor: url(./img/blueLightsaber.png), default;
 	margin: 0;
   	position: absolute;
   	top: 50%;
@@ -7,8 +6,10 @@ canvas {
   	-ms-transform: translate(-50%, -50%);
   	transform: translate(-50%, -50%);
 }
-
+/* 
 #gameWorld {
 	border: none;
-	background: black;
-}
+	background-size: cover;
+	background-position: center;
+	background-image: url(./img/deck.png);
+} */

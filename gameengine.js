@@ -142,7 +142,6 @@ GameEngine.prototype.draw = function () {
     for (var i = 0; i < this.entities.length; i++) {
         this.entities[i].draw(this.ctx);
     }
-    statusBars.draw();
     this.ctx.restore();
 }
 
@@ -162,16 +161,16 @@ GameEngine.prototype.loop = function () {
     this.draw();
     this.mouseMoveX = this.saveX;
     this.mouseMoveY = this.saveY;
-    this.d = null;
-    this.a = null;
-    this.w = null;
-    this.s = null;
-    this.r = null;//for swithing the weapon
-    this.i = null;//for dying
-    this.spacebar = null;
-    this.click = null;
-    this.keyup = null;
-    this.keyReleased = null;
+    // this.d = null;
+    // this.a = null;
+    // this.w = null;
+    // this.s = null;
+    // this.r = null;//for swithing the weapon
+    // this.i = null;//for dying
+    // this.spacebar = null;
+    // this.click = null;
+    // this.keyup = null;
+    // this.keyReleased = null;
 }
 
 function Timer() {
