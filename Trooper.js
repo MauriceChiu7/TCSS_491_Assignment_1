@@ -70,7 +70,7 @@ function Blast (aGameEngine) {
     this.spriteSheetLeft = AM.getAsset("./img/trooper_left.png");
     this.x = 1035;
     this.y = 385;
-    this.delta_x = 20.35;
+    this.delta_x = 20.4;
     this.blastRightAnim = new Animation(this.spriteSheetRight, 7*62, 0, 62, 74, 0.72, 1, false, false);
     this.blastLeftAnim = new Animation(this.spriteSheetLeft, 3*62, 0, 62, 74, 0.72, 1, false, false);
     this.fly = false;
